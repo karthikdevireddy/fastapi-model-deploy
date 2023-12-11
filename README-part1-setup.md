@@ -47,4 +47,4 @@ offering an endpoint for making predictions.
    * 'docker build -t flask-api .'
    * 'docker run -p 8000:8080 flask-api'
 7. Test the api.
-   * connect to api docs and test
+   * connect to api docs and test --> http://localhost:8000/docs
