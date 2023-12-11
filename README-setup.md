@@ -8,12 +8,14 @@ offering an endpoint for making predictions.
 .fastapi-model-deploy
  * [train_app](./train_app)
    * retrain.py - training/re-training
+   * README-pre-processing.md - Pre-processing findings
  * [infra_app](./infra_app)
    * app.py - Flask API file
    * incomemodel.py - pydantic for input validation
    * Dockerfile - serving container
    * download_latest_model.py - Download latest model from mlflow
    * requirements.txt
+   * README-Infra-CICD.md - Production style pipeline
  * [data](./data)
    * train - training data
    * test - testing data
