@@ -10,7 +10,7 @@ import mlflow
 import pickle
 
 # Create feature columns
-data = pd.read_csv("../data/train/train.csv", index_col="index", low_memory=False)
+data = pd.read_csv("../data/train_final.csv", index_col="index", low_memory=False)
 
 # display data
 print(data.head(1))

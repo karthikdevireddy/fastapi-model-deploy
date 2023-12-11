@@ -3,7 +3,6 @@ numpy
 scikit-learn==1.3.2
 joblib
 pytest==7.1.3
-xgboost==1.6.2
 tomli
 imbalanced-learn
 mlflow==2.3.1

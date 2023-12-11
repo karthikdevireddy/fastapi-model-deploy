@@ -36,13 +36,13 @@ offering an endpoint for making predictions.
 2. Create a virtual env
 3. Install the dependencies for model training in train_app.
    * pip install -r requirements.txt
-4. run './retrain.py' 
+4. run 'retrain.py' --> 'python retrain.py' 
    * mlflow will be up and running locally and the new model that we currently trained will be register 
    * navigate to the Mlflow url to check out.
    * You will see the model saved in models directory
 5. Now move to infra_app directory
-   * run './download_latest_model.py'
-   * this will connect to mlflow grt the latest model and saves in the pwd.
+   * run 'download_latest_model.py'
+   * this will connect to mlflow get the latest model and saves in the pwd.
 6. Run Dockerfile to build the image
    * 'docker build -t flask-api .'
    * 'docker run -p 8000:8080 flask-api'
